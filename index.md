@@ -1,5 +1,6 @@
 ---
 title: Lemme Go On
+theme: jekyll-theme-midnight
 ---
 
 ## Let Me Go On
