@@ -1,21 +1,6 @@
 theme: jekyll-theme-midnight
 title: Lemme Go On
 author: Casey Parker
-
-social-network-links:
-  email: "parker.casey@pm.me"
-  github: kashaiahyah85
-  instagram: brdx.1.7.021
-#  spotify: yourname
-  telephone: +12535768478
-  steam: notquiteboston
-  
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
-
 keywords: "politics,society,commentary,proposals,editorials,direct,democracy,code"
 
 # --- Comments --- #
@@ -30,43 +15,6 @@ utterances:
   theme: github-dark # Utterances theme
   label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
-# To use Staticman comments, uncomment the following section. You may leave the reCaptcha
-# section commented if you aren't using reCaptcha for spam protection. 
-# Using Staticman requires advanced knowledge, please consult 
-# https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further 
-# instructions. For any support with staticman please direct questions to staticman and 
-# not to BeautifulJekyll.
-#staticman:
-#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-#  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
-#  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well) 
-#    siteKey  : # You need to apply for a site key on Google
-#    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: "posts"
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
-    values:
-      layout: "page"
-
-# Exclude these files from production site
 exclude:
    - README.md
-#  - CHANGELOG.md
-#  - CNAME
-#  - Gemfile
-#  - Gemfile.lock
-#  - LICENSE
-#  - screenshot.png
-#  - docs/
+   - LICENSE
