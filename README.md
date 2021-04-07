@@ -1,3 +1,7 @@
+---
+title: Lemme Go On
+---
+
 ## Let Me Go On
 
 This is just a simple blog. I'm not trying to market myself, or create some brand, or market something.
